@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+/* app.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+header {
+  background-color: #e7e4e4;
   color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  
+
 }
 
-.App-link {
-  color: #61dafb;
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav li {
+  margin-right: 40px; /* Adjust spacing between items */
 }
+
+footer {
+  background-color: #d1d0d0;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+div {
+  margin: 2em;
+}
+
+h2 {
+  color: #050505;
+}
+
+p {
+  color: #161414;
+}
+
+
+/* Footer.css */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-md-6 {
+  width: 48%;
+}
+
+h3 {
+  color: #fff;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.social-icons a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  text-decoration: underline;
+}
+/* Add this CSS to your stylesheet or inline style */
+div[style*="height: 100%"] {
+  height: 100%;
+}
+
